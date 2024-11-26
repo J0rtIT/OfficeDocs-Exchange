@@ -137,3 +137,6 @@ The following table describes the fields logged in a mailbox audit log entry.
 - **Bypassing mailbox auditing logging**: Mailbox access by authorized automated processes such as accounts used by third-party tools or accounts used for lawful monitoring can create a large number of mailbox audit log entries and may not be of interest to your organization. You can configure such accounts to bypass mailbox audit logging. For details, see [Bypass a User Account From Mailbox Audit Logging](https://docs.microsoft.com/exchange/bypass-a-user-account-from-mailbox-audit-logging-exchange-2013-help).
 
 - **Logging mailbox owner actions**: For mailboxes such as the Discovery Search Mailbox, which may contain more sensitive information, consider enabling mailbox audit logging for mailbox owner actions such as message deletion.
+
+- **Parsing the admin audit logs with PowerShell
+  https://techcommunity.microsoft.com/blog/exchange/parsing-the-admin-audit-logs-with-powershell/603911
